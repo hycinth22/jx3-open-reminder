@@ -1,0 +1,17 @@
+[package]
+name = "JX3OpenMonitor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alerts = "0.1.1"
+args = "2.2.0"
+encoding = "0.2.33"
+getopts = "0.2.21"
+http = "1.1.0"
+log = "0.4.22"
+reqwest = "0.12.7"
+rodio = "0.19.0"
+simple_logger = "5.0.0"
+tokio = { version = "1.39.3", features = ["rt-multi-thread", "rt", "macros"] }
+
